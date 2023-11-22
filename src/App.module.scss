@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(177, 245, 255);
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #55c0fa;
+  list-style-type: none;
+  .cardItem {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      text-align: center;
+    }
+    p{
+      flex: 1;
+    }
+    img {
+      width: 100%;
+      border-radius: 5px;
+      object-fit: contain;
+    }
+  }
+}
+
+.addButton {
+  background-color: #6560f8;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: none;
+}
+
+.inputsContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #3fbdd6;
+    text-indent: 10px;
+  }
+  label {
+    text-align: center;
+    background-color: #6560f8;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 2px solid #3fbdd6;
+    text-indent: 10px;
+    align-items: center;
+    input {
+      width: 10px;
+    }
+  }
+}
+
+.deleteBtn {
+  background-color: #ff661f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
